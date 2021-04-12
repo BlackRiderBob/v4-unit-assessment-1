@@ -110,7 +110,13 @@ let middleNums = numbers.slice(1, 4)
 */
 
 //CODE HERE
-
+let me = {
+  firstName: 'Nick',
+  state: "Utah",
+  age: 29,
+  greeter: ('Hello! My name is ${firstname} and i live in ${state}'),
+    }
+console.log(me.greeter)
 //////////////////PROBLEM 12////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -125,7 +131,9 @@ let middleNums = numbers.slice(1, 4)
 */
 
 // CODE HERE
-
+function bigOrSmall(arr) {
+  answers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+}
 //////////////////PROBLEM 13////////////////////
 /* 
   Create a function called 'arrayReverser' that takes in one parameter, 'arr'. 
